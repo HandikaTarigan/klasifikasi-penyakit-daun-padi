@@ -1,0 +1,9 @@
+# Berkas sementara dan rahasia (jangan diunggah)
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.env.*
+*.zip
+# Bobot MLP berukuran besar: dikecualikan dari upload browser
+models/model_MLP.keras

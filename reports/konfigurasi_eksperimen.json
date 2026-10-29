@@ -1,0 +1,32 @@
+{
+  "dataset": "Project-AgML/rice_leaf_disease_classification_india",
+  "dataset_license": "CC BY 4.0 (tercantum pada halaman dataset)",
+  "kelas": [
+    "Bacterialblight",
+    "Blast",
+    "Brownspot",
+    "Tungro"
+  ],
+  "jumlah_asli": 5932,
+  "duplikat_dibuang": 1180,
+  "konflik_label_duplikat": 0,
+  "jumlah_bersih": 4752,
+  "jumlah_training": 3326,
+  "jumlah_validation": 713,
+  "jumlah_testing": 713,
+  "image_size": [
+    96,
+    96,
+    3
+  ],
+  "batch_size": 32,
+  "maksimal_epoch": 15,
+  "epoch_MLP_berjalan": 13,
+  "epoch_CNN_berjalan": 15,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "optimizer": "Adam",
+  "loss": "sparse_categorical_crossentropy",
+  "normalisasi": "pixel / 255.0",
+  "catatan": "Hasil model hanya untuk klasifikasi dataset; bukan diagnosis agronomi lapangan."
+}
